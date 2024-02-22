@@ -80,18 +80,19 @@ const Details = styled.ul`
         max-width:200px;
         margin: 15px;
         padding:20px
+        
     }
 `
 
 const Moves = styled.li`
-    overflow-y: scroll;
     width:200px;
-    
+    overflow-y: scroll;
 `
 
 const Abilities = styled.li`
 overflow-y: scroll;
 `
+
 
 export {
     PokemonIdentification,

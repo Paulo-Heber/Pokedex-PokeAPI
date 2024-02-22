@@ -7,11 +7,10 @@ import { useContext } from 'react';
 export function PokeCard({ inputValue }) {
     const { PokeData } = useContext(pokeDataContext);
     const { theme } = useContext(ThemeContex);
-    const data = PokeData;
-
-    const pokemons = data.filter((data) => (
+    
+    const pokemons = PokeData.filter((data) => (
         inputValue === '' ||
-        data.types.some(type => type.type.name.toLowerCase().includes(inputValue.toLowerCase()))))
+        data.types.some(({type}) => type.name.toLowerCase().includes(inputValue.toLowerCase()))))
 
     return (
         <ConteinerStyle>

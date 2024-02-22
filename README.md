@@ -1,5 +1,5 @@
 # Pokedex Poke-API
-
+![Pokedex Preview](/src/gifs/Poke-API.gif)
 ## Propósito
 O ProjetoXYZ foi criado com o propósito de demonstrar minha abordagem para o desenvolvimento de software, destacando meu compromisso com código limpo e organizado. Valorizo a eficiência e a funcionalidade, buscando atender às expectativas daqueles que interagem com o projeto. Além disso, este projeto serve como uma vitrine das tecnologias que recentemente aprendi e aprimorei durante o seu desenvolvimento.
 
