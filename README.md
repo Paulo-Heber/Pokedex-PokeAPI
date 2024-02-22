@@ -61,6 +61,30 @@ Sinta-se à vontade para explorar e contribuir para o projeto, e qualquer feedba
 
 ## Como utilizar
 
+1. Clone o repositório:
+
+    ```bash
+    git clone https://github.com/Paulo-Heber/Pokedex-PokeAPI.git
+    ```
+
+2. Certifique-se de ter o Node.js instalado. Você pode baixá-lo em [Node.js website](https://nodejs.org/).
+
+3. Abra o terminal dentro da pasta do projeto e instale as dependências utilizando o npm:
+
+    ```bash
+    npm install
+    ```
+
+4. Após a instalação das dependências, inicie o projeto executando o seguinte comando:
+
+    ```bash
+    npm run dev
+    ```
+
+    Este comando iniciará o projeto e abrirá a aplicação no seu navegador padrão.
+
+Agora você deve ter a Pokedex PokeAPI rodando localmente no seu ambiente de desenvolvimento.
+
 ## Aprendizados com o Projeto
 
 Durante a realização deste projeto, adquiri diversas habilidades e conhecimentos, destacando:
