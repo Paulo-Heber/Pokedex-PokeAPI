@@ -1,4 +1,3 @@
-import { themes } from "../../contexts/themes-toggler/themes-context"
 import styled from "styled-components"
 
 const Conteiner = styled.div`
@@ -19,7 +18,7 @@ max-height: 600px;
 display:flex;
 padding:0 20px;
 color:${(props) => props.theme.color};
-    background-color: ${({theme}) => (theme === themes.light ? '#d8e3ec' : '#a8a8a8')};
+    background-color: ${({theme}) => (theme.detailsCard)};
 `
 
 const BasicDetails = styled.div`

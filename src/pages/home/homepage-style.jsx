@@ -1,4 +1,3 @@
-import { themes } from "../../contexts/themes-toggler/themes-context"
 import styled from "styled-components"
 
 const HomeStyle = styled.div`
@@ -24,8 +23,8 @@ display:flex;
 }`
 
 const SearchInput = styled.input`
-  background-color: ${({ theme }) => (theme === themes.light ? '#d8e3ec' : '#191919')};
-  color:${({ theme }) => (theme === themes.light ? '#212121' : '#d8e3ec')};
+  background-color: ${({ theme }) => (theme.themeInputBackground)};
+  color:${({ theme }) => (theme.themeInputColor)};
   border-color: ${({ theme }) => (theme.color)};
   border-style:solid;
   max-height: 35px;

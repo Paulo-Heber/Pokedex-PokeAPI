@@ -4,12 +4,18 @@ export const themes = {
 
     light: {
         color: '#333333',
-        background: '#5e5b5bad' 
+        background: '#5e5b5bad',
+        detailsCard: '#d8e3ec',
+        themeInputColor:'#d8e3ec',
+        themeInputBackground:'#d8e3ec'
     },
     
     dark: {
         color: '#010001',
-        background: '#191919'
+        background: '#191919',
+        detailsCard: '#a8a8a8',
+        themeInputColor:'#212121',
+        themeInputBackground:'#191919'
     }
 }
 
