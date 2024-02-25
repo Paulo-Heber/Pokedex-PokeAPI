@@ -3,7 +3,6 @@ import styled from "styled-components"
 const HomeStyle = styled.div`
 background-color: ${({ theme }) => theme.background};
 color:${({ theme }) => theme.color};
-justifi-content:spacea-around;
 flex-direction: column;
 align-items: center;
 min-height: 100vh;

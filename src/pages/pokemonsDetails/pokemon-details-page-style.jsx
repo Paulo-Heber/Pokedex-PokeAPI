@@ -1,34 +1,38 @@
 import styled from "styled-components"
 
 const Conteiner = styled.div`
-    display:flex;
     flex-direction: column;
-    padding-top:30px;
     align-items: center;
     min-height:100vh;
     font-size:15px
+    display:flex;
+    padding:30px;
 `
 
 const PokemonsDetails = styled.div`
-flex-direction: column;
-align-items: center;
-border:solid 0.5px;
-border-radius:15px;
-max-height: 600px;
-display:flex;
-padding:0 20px;
-color:${(props) => props.theme.color};
-    background-color: ${({theme}) => (theme.detailsCard)};
+    background-color: ${({ theme }) => (theme.detailsCard)};
+    color:${(props) => props.theme.color};
+    flex-direction: column;
+    align-items: center;
+    border:solid 0.5px;
+    border-radius:15px;
+    overflow-y: scroll;
+    max-height: 600px;
+    min-width:100px;
+    margin:15px;
+    
 `
 
 const BasicDetails = styled.div`
-display:flex;
-align-items: center
-
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    display:flex;
 `
 
 const PokemonIdentification = styled.div`
 text-align:center;
+
 `
 const PokemonImage = styled.img`
     width: 200px;
@@ -71,7 +75,8 @@ margin:5px;
 const Details = styled.ul`
     display:flex;
     align-items:center;
-
+    justify-content: center;
+    flex-wrap:wrap;
     & > *{
         border-radius:10px;
         border: solid 1px;

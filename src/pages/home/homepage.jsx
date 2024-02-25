@@ -17,7 +17,7 @@ export function HomePage() {
       <HeaderStyle theme={theme}>
         <SearchInput
           theme={theme}
-          placeholder="🔎 Pokemon search"
+          placeholder="🔎 Ex: fire"
           onChange={FilterPokeCard}
           value={searchInputValue} />
         <ThemeTogglerButton />
