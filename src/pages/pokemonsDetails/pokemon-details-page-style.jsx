@@ -4,7 +4,7 @@ const Conteiner = styled.div`
     flex-direction: column;
     align-items: center;
     min-height:100vh;
-    font-size:15px
+    font-size:15px;
     display:flex;
     padding:30px;
 `
@@ -18,7 +18,6 @@ const PokemonsDetails = styled.div`
     border-radius:15px;
     overflow-y: scroll;
     max-height: 600px;
-    min-width:100px;
     margin:15px;
     
 `
